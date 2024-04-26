@@ -1,0 +1,129 @@
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  margin-left: 300px;
+  width: 100%;
+} h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--dark);
+}
+.content h1 {width: 100%;
+  margin-left: 100px; /* Ajustez la marge supérieure selon vos besoins */
+  margin-bottom: 530px;
+  text-align: center;
+  }
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.card .level{
+    margin-left: 215px;
+  
+    font-size: 18px;
+    
+}
+.learn-more{
+    margin-left: 220px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+.date{
+  margin-top: 40px;
+  margin-right: 170px;
+  font-size:  18px;
+    
+}
+
+.card {
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 318px;
+  height: 420px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 40px ;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.card .rating {
+  position: absolute;
+  font-size: 1.2em;
+  
+}
+
+
+
+.card .learn-more {
+   
+  background-color: #5698c8fa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 170px;
+  width: 120px;
+  height: 50px;
+  margin-top: -45px;
+ 
+}
+
+.card .learn-more:hover {
+  background-color: #0062cc;
+}
+.card .rating {
+  
+  font-size: 1.9em;
+  margin-bottom: -90px;
+  display: flex;
+  align-items: center;
+  margin-right: 240px;
+}
+
+.card .rating i {
+  color: gold;
+  margin-right: 5px;
+}
+
+.card .rating .rating-number {
+  margin-left: 5px;
+  font-size: 19px;
+  margin-bottom: 2px;
+}
+

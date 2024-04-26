@@ -1,0 +1,332 @@
+.lock {
+  background: gold;
+  border-radius: 3px;
+  width: 25px;
+  height: 20px;
+  margin-top: -33px;
+  margin-left: 220px;
+  position: relative;
+}
+
+.lock:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border:3px solid gold;
+  top: -14px;
+  left: 4.9px;
+  width: 15px;
+  height: 27px;
+  border-radius: 35px 35px 0 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-left: 400px;
+  margin-top: -38px;
+  background: blur(20px);
+}
+
+.like-button,
+.dislike-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.like-button:hover,
+.dislike-button:hover {
+  background-color: #d5d5d5;
+}
+
+.like-button i,
+.dislike-button i {
+  margin-right: 5px;
+}
+
+.like-button {
+  color: green;
+}
+
+.dislike-button {
+  color: red;
+}
+
+    .reply{
+        background-color: var(--blue);
+        border: none;
+        margin-left: 530px;
+        margin-top: -38px;
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+   
+        font-size: 20px;
+        color: white;
+    }
+  .card {
+   
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px 25px 25px 25px;
+  margin-bottom: 10px;
+  width: 70%; /* Set your desired fixed width here */
+  height: fit-content; /* Adjusts the height based on content */
+  }
+  
+  .card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .card-nd{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-content {
+    flex-grow: 1;
+   
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    font-size: 14px;
+    margin-right:-10px ;
+    margin-top: -2px;
+    padding-right: 20px;
+  }
+  
+  .comment {
+    font-size: 16px;
+  }
+
+  .button-container {
+  display: flex;
+  gap: 10px;
+  margin-left: 400px;
+  margin-top: -38px;
+  background: blur(20px);
+}
+
+.like-button,
+.dislike-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.like-button:hover,
+.dislike-button:hover {
+  background-color: #d5d5d5;
+}
+
+.like-button i,
+.dislike-button i {
+  margin-right: 5px;
+}
+
+.like-button {
+  color: green;
+}
+
+.dislike-button {
+  color: red;
+}
+
+    .reply{
+        background-color: var(--blue);
+        border: none;
+        margin-left: 530px;
+        margin-top: -38px;
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+   
+        font-size: 20px;
+        color: white;
+    }
+  .card {
+   
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px 25px 25px 25px;
+  margin-bottom: 10px;
+  width: 70%; /* Set your desired fixed width here */
+  height: fit-content; /* Adjusts the height based on content */
+  }
+  
+  .card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .card-nd{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-content {
+    flex-grow: 1;
+   
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    font-size: 14px;
+    margin-right:-10px ;
+    margin-top: -2px;
+    padding-right: 20px;
+  }
+  
+  .comment {
+    font-size: 16px;
+  }
+
+  .comment-bar, .card{
+  margin: 30px;
+}
+
+.comment-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60px;
+    width: 970px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .comment-text {
+    color: #888888;
+    width: 900px;
+  }
+  
+  .comment-input-container {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .commentaire{
+    width: 700px;
+    height: 80px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 20px;
+
+  }
+  
+  .create {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 700px;
+  }
+
+  .img-text{
+display: flex;
+
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.comment-bar, .card{
+  margin: 30px;
+}
+
+.comment-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60px;
+    width: 970px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .comment-text {
+    color: #888888;
+    width: 900px;
+  }
+  
+  .comment-input-container {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .commentaire{
+    width: 700px;
+    height: 80px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 20px;
+
+  }
+  
+  .create {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 700px;
+  }
+
+  .img-text{
+display: flex;
+
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
